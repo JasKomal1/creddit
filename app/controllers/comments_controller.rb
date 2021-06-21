@@ -21,5 +21,19 @@ class CommentsController < ApplicationController
         @comment = Comment.find(params[:id])
     end
 
-    
+    def update
+        @comment = Comment.find(params[:id])
+        @comment = Comment.update(activity_params)
+    end
+
+    def destroy 
+        @comment = Comment.find(params[:id])
+        @comment.destroy
+    end
+
+    private 
+
+    def comment_params
+        params.permit(:comment).permit(:body)
+    end
 end
