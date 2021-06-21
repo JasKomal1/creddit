@@ -13,7 +13,6 @@ class ActivitiesController < ApplicationController
   
       def create 
         @activity = Activity.create(activity_params)
-        redirect_to ??
       end
   
       def edit 
@@ -23,13 +22,11 @@ class ActivitiesController < ApplicationController
       def update 
          @activity = Activity.find(params[:id])
          @activity.update(activity_params)
-         redirect_to ??
       end
   
       def destroy 
         @activity = Activity.find(params[:id])
         @activity.destroy
-        redirect_to ??
       end
   
       private 
