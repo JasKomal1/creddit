@@ -8,8 +8,9 @@
 
 u1 = User.create(username: "U1", email: "u1@email.com", password: "abc123")
 u2 = User.create(username: "U2", email: "u2@email.com", password: "abc123")
-u3 = User.create(username: "U2", email: "u2@email.com", password: "abc123")
-u4 = User.create(username: "U2", email: "u2@email.com", password: "abc123")
+u3 = User.create(username: "U3", email: "u2@email.com", password: "abc123")
+u4 = User.create(username: "U4", email: "u2@email.com", password: "abc123")
+u5 = User.create(username: "U5", email: "u2@email.com", password: "abc123")
 
 
 a1 = Activity.create(name: "Act1", description: "Is a jolly good time!")
