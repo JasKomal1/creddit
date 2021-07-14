@@ -33,6 +33,7 @@ c4 = Comment.create(user_id: u1.id, post_id: p4.id, body: "Body stuff")
 
 f1 = Favorite.create(user_id: u1.id, activity_id: a5.id)
 f2 = Favorite.create(user_id: u1.id, activity_id: a4.id)
+f3 = Favorite.create(user_id: u2.id, activity_id: a1.id)
 
 
 puts "🌱"
