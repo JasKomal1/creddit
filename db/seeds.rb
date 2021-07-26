@@ -19,6 +19,7 @@ a2 = Activity.create(name: "Act2", description: "Kinda sucks when it rains")
 a3 = Activity.create(name: "Act3", description: "Really fun in pairs")
 a4 = Activity.create(name: "Act4", description: "Best to do alone")
 a5 = Activity.create(name: "Act5", description: "A wild time for the whole family")
+a6 = Activity.create(name: "Act5", description: "A wild time for the whole family")
 
 p1 = Post.create(user_id: u1.id, activity_id: a1.id, title: "Title", body: "body")
 p2 = Post.create(user_id: u1.id, activity_id: a2.id, title: "Title", body: "body")
