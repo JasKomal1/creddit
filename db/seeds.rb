@@ -25,6 +25,7 @@ p2 = Post.create(user_id: u1.id, activity_id: a2.id, title: "Title", body: "body
 p3 = Post.create(user_id: u1.id, activity_id: a3.id, title: "Title", body: "body")
 p4 = Post.create(user_id: u1.id, activity_id: a4.id, title: "Title", body: "body")
 p5 = Post.create(user_id: u1.id, activity_id: a5.id, title: "Title", body: "body")
+p6 = Post.create(user_id: u1.id, activity_id: a5.id, title: "Title", body: "body")
 
 c1 = Comment.create(user_id: u1.id, post_id: p1.id, body: "Body stuff")
 c2 = Comment.create(user_id: u1.id, post_id: p2.id, body: "Body stuff")
