@@ -33,6 +33,8 @@ c4 = Comment.create(user_id: u1.id, post_id: p4.id, body: "Body stuff")
 c5 = Comment.create(user_id: u2.id, post_id: p4.id, body: "Body stuff")
 c6 = Comment.create(user_id: u2.id, post_id: p1.id, body: "Body stuff")
 c7 = Comment.create(user_id: u2.id, post_id: p1.id, body: "Body stuff")
+c8 = Comment.create(user_id: u2.id, post_id: p1.id, body: "Body stuff")
+c9 = Comment.create(user_id: u2.id, post_id: p1.id, body: "stuff")
 
 f1 = Favorite.create(user_id: u1.id, activity_id: a5.id)
 f2 = Favorite.create(user_id: u1.id, activity_id: a4.id)
