@@ -21,8 +21,7 @@ class FavoritesController < ApplicationController
       end
   
       def update 
-         @favorite = Favorite.find(params[:id])
-         @favorite.update(favorite_params)
+         
       end
   
       def destroy 
