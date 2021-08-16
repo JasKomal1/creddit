@@ -14,7 +14,8 @@ class FavoritesController < ApplicationController
       end
   
       def create 
-        
+        @favorite = Favorite.create(favorite_params)
+
       end
   
       def edit 
